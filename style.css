@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap);
+
+body {
+  background: linear-gradient(rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  font-family: Poppins;
+}
+h1 {
+  font-family: Poppins;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+  font-size: 25pt;
+  margin-bottom: 5px;
+}
+p {
+  font-family: Poppins;
+  text-align: center;
+  font-weight: 200;
+  font-style: italic;
+  color: white;
+  font-size: 14pt;
+  margin-top: 0px;
+}
+label,
+input[name="recommend"] {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 12pt;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  width: 600px;
+  height: 1080px;
+  padding-top: 20px;
+  padding-left: ;
+  margin: auto;
+}
+input[type="radio"] {
+  margin-right: 10px;
+}
+textarea {
+  width: 500px;
+  height: 100px;
+}
+button {
+  width: 508px;
+  height: 40px;
+  background-color: #37af65;
+  color: white;
+  font-family: Poppins;
+  border: #37af65;
+  border-radius: 2px;
+}
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 506px;
+  height: 30px;
+  border-radius: 2px;
+  border: white;
+}
+select {
+  width: 510px;
+  height: 32px;
+  font-family: Poppins;
+  border-radius: 2px;
+  border: white;
+}
+::placeholder {
+  font-family: Poppins;
+}
